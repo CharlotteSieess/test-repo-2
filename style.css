@@ -1,0 +1,111 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #EFF3F7;
+  margin: 0;
+}
+
+#container {
+  width:775px;
+	margin:0 auto;
+  display: flex;
+  margin-top: 50px;
+  box-shadow: 2px 2px 10px #6E5E61;
+}
+
+/* LEFT */
+.album-information {
+  background-color: #EEF5F7;
+  width: 300px;
+  height: 210px;
+  color: #6E5E61;
+  padding-left:30px;
+  padding-right: 30px;
+}
+
+.album-informations{
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.informations {
+  font-size: 10px;
+}
+
+/* RIGHT */
+.title-informations {
+  background-color: #C8C5D1;
+  width: 475px;
+  height: 235px;
+  padding-left: 30px;
+}
+
+.title {
+  font-size: 26px;
+  color: #6E5E61;
+  padding-top: 100px;
+}
+
+.artist {
+  font-size: 13px;
+  color: #6E5E61;
+  padding-top: 10px;
+}
+
+.song-number {
+  font-size: 10px;
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+
+.date {
+  padding-left: 30px;
+  font-size: 10px;
+  color: #6E5E61;
+  background-color: #DAD8E4;
+  height: 65px;
+  line-height: 65px;
+}
+
+/* SONGS INFORMATIONS */
+.songs-informations {
+  background-color: #FFFFFF;
+  height: 210px;
+}
+
+.songs-number, .songs-timing  {
+  font-size: 12px;
+  color: #6E5E61;
+  width: 65px;
+  height: 20px;
+}
+
+.songs-number {
+  text-align: center;
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.songs-title {
+  font-weight: 700;
+  font-size: 13px;
+  color: #7C4B67;
+  width: 325px;
+  display: inline-block;
+}
+
+/* DOWN - PLAYER */
+#down {
+  background-color: #EEF5F7;
+  width: 775px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+}
+
+.time-tracker {
+  background-color: #DAD8E4;
+  width: 775px;
+  height: 3px;
+}
